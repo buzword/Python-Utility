@@ -1,5 +1,8 @@
 # -*- coding: utf-8 -*-Q
-# provide utility method for path lib operation
+"""
+author: buzword@gmail.com
+28,Dec,2018
+"""
 from pathlib import Path
 from typing import List
 import datetime
@@ -7,7 +10,8 @@ import re
 
 def list_files(parentfolders:List[str],suffixes:List[str]):
     """
-    Generator method for path object based on the specified multiple parent folders and mutliple suffixes
+    Utility method for path lib operation
+    Generator for path object based on the specified multiple parent folders and mutliple suffixes
     ---------
     Parameters
         parentfolders:List[str]
